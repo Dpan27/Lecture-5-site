@@ -8,6 +8,7 @@ header {
 	top: 0px;
 	left: 0px;
 	background-color: white;
+	z-index: 1;
 }
 .logo {
 	font-size: 13px;
@@ -40,8 +41,89 @@ header {
 /*make trending section*/
 
 .trending-div{
-	width: 1160px;
+	width: 1168px;
 	height: 410px;
-	margin-top: 75px;
+	margin: 75px 140px auto 140px;
 }
+.h2-trending {
+	margin-bottom: 40px;
+}
+.lake-div {
+	vertical-align: top;
+	display: inline-block;
+	width: 360px;
+	height: 350px;
+	margin-right: 40px;	
+	background-color: white;
+/*	margin-bottom: 65px;*/
+}
+.wrapper-lake {
+	position: relative;
+}
+.wrapper-lake-h1 {
+	position: absolute;
+	font-size: 16px;
+	top: 28px;
+	left: 40px;
+	color: white;
 
+}
+.lake-p {
+	font-size: 13px;
+	color: #A6ADB4;
+	margin-left: 40px;
+	margin-top: 66px;
+/*	transform: translate(-50%, -50%);*/
+}
+.lake-time {
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.ambrela-div {
+	vertical-align: top;
+	display: inline-block;
+	width: 360px;
+	height: 350px;
+	margin-right: 40px;
+	background-color: white;
+}
+.wrapper-ambrela {
+	position: relative;
+}
+.wrapper-ambrela-h1 {
+	position: absolute;
+	top: 28px;
+	left: 40px;
+	font-size: 16px;
+	color: white;
+}
+.ambrela-p {
+	font-size: 13px;
+	color: #A6ADB4;
+	margin-left: 40px;
+	margin-top: 66px;
+}
+.mount-div {
+	vertical-align: top;
+	display: inline-block;
+	width: 360px;
+	height: 350px;
+	background-color: white;
+
+}
+.wrapper-mount {
+	position: relative;
+}
+.wrapper-mount-h1 {
+	position: absolute;
+	top: 28px;
+	left: 40px;
+	font-size: 16px;
+	color: white;
+}
+.maunt-p {
+	font-size: 13px;
+	color: #A6ADB4;
+	margin-left: 40px;
+	margin-top: 66px;
+}
